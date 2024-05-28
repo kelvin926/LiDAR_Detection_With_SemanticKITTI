@@ -7,6 +7,15 @@ LiDAR 데이터를 사용하여 사람을 인식하는 ROS2 패키지입니다.
 ### 1. Ubuntu 22.04, ROS2 Humble 설치
 
 ### 2. SemanticKITTI Data 중 00 Data를 data 폴더 안에 넣기
+├── data/
+│ ├── sequences/
+│ │ ├── 00/
+│ │ │ ├── velodyne/ (SemanticKITTI)
+│ │ │ ├── labels/ (SemanticKITTI)
+│ ├── processed/
+│ │ ├── person/
+│ │ └── non_person/
+위와 같은 형태로 폴더를 만들어야 합니다.
 
 ### 3. requirements.txt 설치
 pip install -r requirements.txt
