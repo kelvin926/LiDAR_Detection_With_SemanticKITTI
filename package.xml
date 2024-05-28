@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>hyunseo_lidar_detection</name>
+  <version>1.0.0</version>
+  <description>The hyunseo_lidar_detection package</description>
+
+  <maintainer email="kelvin926@korea.ac.kr">Jang Hyunseo</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>visualization_msgs</depend>
+
+  <exec_depend>python3</exec_depend>
+  <exec_depend>python3-numpy</exec_depend>
+  <exec_depend>python3-torch</exec_depend>
+  <exec_depend>python3-open3d</exec_depend>
+  <exec_depend>python3-scikit-learn</exec_depend>
+</package>
